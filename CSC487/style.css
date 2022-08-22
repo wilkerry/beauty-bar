@@ -1,0 +1,228 @@
+/* Kerry Wilson Senior Project */
+
+/* Home Page */
+h1 {
+  text-align: center;
+  background: white;
+  color: black;
+  font-size: 45px;
+  font-family: "Caveat", cursive;
+  font-weight: 250;
+}
+/* Headings */
+h2 {
+  text-align: center;
+  background: white;
+  color: black;
+  font-size: 35px;
+  font-family: "Caveat", cursive;
+  font-weight: 250;
+  padding-bottom: 0px;
+}
+/* Navigation */
+.topnav {
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: "Caveat", cursive;
+}
+
+/* Navigation Design */
+.topnav a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.topnav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: lightgrey;
+  color: rgb(250, 233, 237);
+}
+/* Homepage pic */
+.image {
+  content: url(salon.png);
+  width: 100%;
+  height: auto;
+  border: 2px;
+  border-color: black;
+}
+/* Homepage business info */
+.info {
+  text-align: center;
+  color: black;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+}
+/* Homepage hours */
+.hours {
+  text-align: center;
+  color: black;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  padding-top: 100px;
+}
+/* Footer on various pages */
+.footer {
+  background-color: lightgrey;
+  color: black;
+  font-size: 18px;
+  font-family: "Caveat", cursive;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* Services page table */
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+}
+
+.table th,
+td {
+  padding: 15px;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  background-color: lightgray;
+  text-align: left, center;
+}
+/* Contact page map */
+.map {
+  width: 50%;
+  float: right;
+  position: relative;
+}
+/* Contact page address, e-mail, phone */
+.address {
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+/* Background page info */
+.backinfo {
+  color: black;
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+  font-weight: 250;
+  padding-left: 10px;
+  width: 100%;
+  text-align: center;
+}
+/* Background image */
+.backimage {
+  content: url(salonext.png);
+  text-align: center;
+  height: auto;
+  border: 2px;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Photos page slideshow container */
+.slideshow {
+  max-width: 600px;
+  max-height: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: auto;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: medium;
+  font-size: 40px;
+  border-radius: 0 2px 2px 0;
+  user-select: none;
+}
+
+/* Next button right */
+.next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+/* Black background on next buttons */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Hair images in slideshow */
+.image3 {
+  content: url(hair1.png);
+}
+
+.image4 {
+  content: url(hair2.png);
+}
+
+.image5 {
+  content: url(hair3.png);
+}
+
+.image6 {
+  content: url(hair4.png);
+}
+
+.image7 {
+  content: url(hair5.png);
+}
+
+.image8 {
+  content: url(hair6.png);
+}
+
+.image9 {
+  content: url(hair7.png);
+}
+/* Appointment form */
+form {
+  text-align: left;
+  color: black;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  background-color: lightgray;
+  margin: auto;
+  display: grid;
+  outline: 1.5px dashed;
+  outline-color: darkgray;
+  width: 36%;
+  float: auto;
+  position: relative;
+}
+/* Appointment information */
+.appinfo {
+  text-align: center;
+  color: black;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 20px 80px;
+}
+/* Submit button on appointment form */
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  float: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+}
